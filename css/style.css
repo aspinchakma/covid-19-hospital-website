@@ -1,3 +1,100 @@
-.top-section{
-    background-image: url(img/right-corona-bg.png);
+@media only screen and (max-width:1000px) {
+    .menu-container a{
+        margin-left:20px;
+    }
+    
+}
+@media only screen and (min-width:1024px) {
+    .menu-container{
+        position:relative;
+        padding:.5rem;
+    }
+    
+    .menu-container a:nth-child(1)::after{
+        content: "";
+        width:80px;
+        height:5px;
+        background-color:#198754;
+        position:absolute;
+        bottom:0px;
+        left:0px;
+        display:none;
+        transition: all 3s;
+        
+        
+    }
+    .menu-container a:nth-child(1):hover::after{
+        display:block;
+    }
+    .menu-container a:nth-child(2)::after{
+        content: "";
+        width:135px;
+        height:5px;
+        background-color:#198754;
+        position:absolute;
+        bottom:0px;
+        left:115px;
+        display: none;
+        
+        
+    }
+    .menu-container a:nth-child(2):hover::after{
+        display:block;
+    }
+    .menu-container a:nth-child(3)::after{
+        content: "";
+        width:120px;
+        height:5px;
+        background-color:#198754;
+        position:absolute;
+        bottom:0px;
+        left:295px;
+        display: none;
+        
+    }
+    .menu-container a:nth-child(3):hover::after{
+        display:block;
+    }
+    .menu-container a:nth-child(4)::after{
+        content: "";
+        width:115px;
+        height:5px;
+        background-color:#198754;
+        position:absolute;
+        bottom:0px;
+        left:455px;
+        display: none;
+        
+        
+    }
+    .menu-container a:nth-child(4):hover::after{
+        display:block;
+    }
+    .menu-container a:nth-child(5)::after{
+        content: "";
+        width:120px;
+        height:5px;
+        background-color:#198754;
+        position:absolute;
+        bottom:0px;
+        left:610px;
+        display: none;
+        
+        
+    }
+    .menu-container a:nth-child(5):hover::after{
+        display:block;
+     
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
